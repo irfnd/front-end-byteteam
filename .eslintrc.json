@@ -1,4 +1,7 @@
 {
 	"extends": ["next", "prettier"],
-	"rules": {}
+	"rules": {
+		"@next/next/no-img-element": "off",
+		"react-hooks/rules-of-hooks": "off"
+	}
 }
